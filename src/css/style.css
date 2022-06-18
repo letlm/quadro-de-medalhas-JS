@@ -1,0 +1,321 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300&family=Poppins:ital,wght@0,200;0,300;1,100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap');
+
+main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.sectionTabela {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    border-radius: 8px;
+}
+
+.divRanking {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.listraAzul {
+    width: 100vw;
+    height: 70px;
+    left: 0px;
+    top: 0px;
+    background: #364FC7;
+    box-shadow: 0px 0px 30px -10px rgba(0, 0, 0, 0.25);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.circulos {
+    margin-left: -7px;
+}
+
+.menor {
+    margin-right: 10px;
+    color: rgb(255, 255, 255);
+    font-size: 26px;
+    font-weight: 900;
+    font-family: 'Roboto', sans-serif;
+}
+
+.maior {
+    margin-left: 2px;
+    color: rgb(255, 255, 255);
+    font-size: 26px;
+    font-weight: 900;
+    font-family: 'Roboto', sans-serif;
+}
+
+.pesquisarPais {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    width: 114px;
+    height: 40px;
+    left: 16px;
+    top: calc(50% - 40px/2 + 0.5px);
+    background: #364FC7;
+    border: 1.4px solid #364FC7;
+    box-sizing: border-box;
+    border-radius: 8px;
+    color: #FFFFFF;
+    margin-left: 12px;
+}
+
+.pesquisarPais:hover {
+    cursor: pointer;
+    background-color: #000000;
+    color: rgb(255, 255, 255);
+    border: 2px solid #939EDF;
+}
+
+.divFiltroPais {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100vw;
+    height: 200px;
+    left: 0px;
+    top: 0px;
+    background: #E9ECEF;
+}
+
+.ulAzul {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    background: #364FC7;
+    width: 1250px;
+    height: 70px;
+}
+
+.ulAzul:hover {
+    background: #bac0df;
+}
+
+.tbody {
+    display: flex;
+    flex-direction: column;
+    width: 1250px;
+}
+
+.buttonPosition, .buttonOuro, .buttonPrata, .buttonBronze {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 10px 20px;
+    width: 103px;
+    height: 40px;
+    left: 20px;
+    top: 20px;
+    border: 1px solid #4058ca;
+    color: white;
+    background: #4058CA;
+    border-radius: 5px;
+}
+
+.buttonPosition:hover, .buttonOuro:hover, .buttonPrata:hover, .buttonBronze:hover {
+    cursor: pointer;
+    background-color: #000000;
+    color: rgb(255, 255, 255);
+    border: black;
+}
+
+.listarUm {
+    display: flex;
+    align-items: center;
+    width: 1250px;
+    height: 70px;
+    flex-direction: row;
+}
+
+.bandeiras {
+    height: 20px;
+    width: 28px;
+    left: 0px;
+    top: 0px;
+    border-radius: 2px;
+    margin-right: 10px;
+}
+
+table {
+    margin-top: -75px;
+    text-align: center;
+    width: 1200px;
+    border: 1px solid rgb(235, 235, 235);
+    border-radius: 12px;
+    left: 0px;
+    top: 0px;
+    transition: ease-in-out .1s;
+}
+
+table:hover {
+    box-shadow: 3px 3px 13px 10px rgba(202, 185, 200, 0.5);
+}
+
+.pais, .total {
+    color: rgb(235, 235, 235);
+    font-family: 'Poppins';
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.pais {
+    display: flex;
+    justify-content: center;
+    width: 477px;
+    height: 68px;
+    align-items: center;
+    border-right: 2px solid #5E72D2;
+}
+
+.total {
+    width: 112px;
+    display: flex;
+    justify-content: center;
+    height: 68px;
+    align-items: center;
+}
+
+tr {
+    left: 426px;
+    top: 950px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 25px;
+    color: #828282;
+}
+
+tr:nth-child(even) {
+    background: rgba(248, 249, 250, 1);
+}
+
+.linhaPais {
+    display: flex;
+    flex-direction: row-reverse;
+    margin-left: 100px;
+    justify-content: flex-end;
+    width: 477px;
+    margin-right: -100px;
+
+}
+
+.filtroPais {
+    bottom: 25.29%;
+    background: #F5F5F5;
+    border: 2px solid #F5F5F5;
+    box-sizing: border-box;
+    border-radius: 8px;
+    font-family: 'Inter';
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin-left: 110px;
+    height: 40px;
+    width: 301px;
+    left: 0px;
+    top: 25px;
+    padding: 10px;
+}
+
+.exemplo {
+    height: 12px;
+    width: 43px;
+    left: 0px;
+    top: 75px;
+    font-family: 'Inter';
+    letter-spacing: 0em;
+    text-align: left;
+    position: static;
+    right: 85.71%;
+    top: 86.21%;
+    bottom: 0%;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 10px;
+    line-height: 12px;
+    color: #868E96;
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+    margin-left: 110px
+}
+
+.pesquisa {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 15px;
+    color: #000000;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin-top: 20px;
+    margin-left: 110px;
+    margin-bottom: 8px;
+}
+
+.form {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    margin-bottom: 8px;
+}
+
+.position {
+    width: 212px;
+    display: flex;
+    justify-content: center;
+    height: 68px;
+    align-items: center;
+    border-right: 2px solid #5E72D2;
+}
+
+.positionBody {
+    width: 212px;
+    display: flex;
+    justify-content: center;
+    height: 68px;
+    align-items: center;
+    border-right: 2px solid #E9ECEF;
+}
+
+.ou {
+    width: 188px;
+    display: flex;
+    justify-content: center;
+    height: 68px;
+    align-items: center;
+    border-right: 2px solid #5E72D2;
+}
+
+.ouBody {
+    width: 188px;
+    display: flex;
+    justify-content: center;
+    height: 68px;
+    align-items: center;
+    border-left: 2px solid #E9ECEF;
+}
+
+.numeros {
+    width: 112px;
+    display: flex;
+    justify-content: center;
+    height: 68px;
+    align-items: center;
+    border-left: 2px solid #E9ECEF;
+}
